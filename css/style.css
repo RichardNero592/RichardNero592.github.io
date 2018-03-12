@@ -1,0 +1,289 @@
+@font-face {
+
+  font-family: BreeSerif;
+  src: url(../fonts/BreeSerif-Regular.ttf);
+}
+
+@font-face {
+
+  font-family: Yesteryear;
+  src: url(../fonts/Yesteryear-Regular.ttf);
+}
+
+@font-face {
+
+  font-family: Russo One;
+  src: url(../fonts/RussoOne-Regular.ttf);
+}
+
+@font-face {
+
+  font-family: Cutive;
+  src: url(../fonts/Cutive-Regular.ttf);
+}
+
+header {
+
+  background-color: #17202a;
+  overflow: hidden;
+}
+
+header a img {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  height: 25%;
+}
+
+body {
+
+  background-image: url("../images/bg.jpg");
+  background-size: 100%;
+}
+
+h1 {
+
+  font-family: Cutive;
+  color: #ddd;
+  text-align: center;
+}
+
+h2 {
+
+  text-align: center;
+  color: #ddd;
+  font-family: Cutive;
+}
+
+h2 img{
+
+  position: absolute;
+  top: 60px;
+  right: 45px;
+  width: 80%;
+  height: 60%;
+}
+
+h2 {
+
+  padding-top: 10px;
+  position: absolute;
+  font-size: 20px;
+  top: 200px;
+  left: 50px;
+  width: 450px;
+  height: 350px;
+  background-color: #17202a;
+  border: 3px solid #4CAF50;
+}
+
+h3 {
+
+  padding-top: 10px;
+  position: absolute;
+  font-size: 20px;
+  top: 200px;
+  right: 50px;
+  width: 450px;
+  height: 350px;
+  background-color: #17202a;
+  border: 3px solid #4CAF50;
+}
+
+h3 {
+
+  text-align: center;
+  color: #ddd;
+  font-family: Cutive;
+}
+
+h3 img{
+
+  position: absolute;
+  top: 60px;
+  right: 45px;
+  width: 80%;
+  height: 60%;
+}
+
+div img {
+
+  position: absolute;
+  bottom: 150px;
+  left: 105px;
+  width: 50%;
+  height: 70%;
+}
+
+div.container  {
+
+  position: absolute;
+  top: 150px;
+  right: 520px;
+  width: 490px;
+  height: 450px;
+  background-color: #17202a;
+  border: 3px solid #4CAF50;
+}
+
+div.container2 {
+
+  position: absolute;
+  top: 220px;
+  right: 370px;
+  width: 800px;
+  height: 400px;
+  background-color: #17202a;
+  border: 3px solid #4CAF50;
+}
+
+div.class {
+
+  position: absolute;
+  top: 320px;
+  left: 510px;
+  width:40%;
+  height: 50%;
+}
+
+section div p {
+
+  text-align: center;
+}
+
+.topnav {
+
+  background-color: #17202a;
+  overflow: hidden;
+  font-family: BreeSerif;
+  float: center;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border: 2px solid #4CAF50;
+}
+
+.topnav a {
+
+  color: white;
+  text-decoration: none;
+  padding: 50px;
+  border: 2px solid #4CAF50;
+}
+
+.topnav a:hover {
+
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a:active {
+
+  background-color: #f39c12;
+  color: white;
+}
+
+.topnav a:focus {
+
+  background-color: #58d68d;
+  color: white;
+}
+
+.footer {
+
+  position: absolute;
+  bottom: 0;
+  height: 13%;
+  width: 100%;
+  background-color: #17202a;
+  color: white;
+  text-align: center;
+}
+
+.footer p {
+
+  font-family: BreeSerif;
+  color: #4CAF50;
+  line-height: 10px;
+}
+
+.fa {
+
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+
+  position: absolute;
+  bottom: 25px;
+  right: 16px;
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+
+  position: absolute;
+  bottom: 25px;
+  right: 100px;
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+
+  position: absolute;
+  bottom: 25px;
+  right: 180px;
+  background: #bb0000;
+  color: white;
+}
+
+
+main h1 {
+
+  font-family: Cutive;
+  color: #ddd;
+  text-align: center;
+  background-color: #17202a;
+  border: 2px solid #4CAF50;
+}
+
+
+main div p {
+
+  text-align: center;
+  font-family: BreeSerif;
+  color: #ddd;
+  font-size: 17px;
+  background-color: #17202a;
+
+}
+
+main div ul {
+
+  font-family: BreeSerif;
+  color: #ddd;
+  font-size: 18px;
+  list-style: square;
+}
+
+.edit {
+
+  padding-top: 50px;
+  font-family: BreeSerif;
+  font-size: 20px;
+  text-align: center;
+}
